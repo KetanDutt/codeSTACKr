@@ -2,7 +2,7 @@
 
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCDCHcqyeQgJ-jVSd6VJkbCw?logo=youtube&logoColor=red&style=for-the-badge)][youtube]
 [![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://codestackr.com)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=x&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
 
 [![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/codestackr.codestackr-theme?label=codeSTACKr%20VS%20Code%20Theme&logo=visualstudiocode&logoColor=ff652f&style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=codestackr.codestackr-theme)
 [![Become A VS Code SuperHero](https://img.shields.io/badge/-Become%20A%20VS%20Code%20SuperHero%20%E2%86%92-gray.svg?colorB=ff652f&style=for-the-badge)](https://vsCodeHero.com)
@@ -13,9 +13,8 @@
 - 🔭 Check out my VS Code course: [Become A VS Code SuperHero!][course]!
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2022 Goals: Learn more about web3
+- 🥅 2025 Goals: Ship more!!
 - ⚡ Fun fact: I love to draw and play guitar / drums
-- 😻 Check out the NFT collection I created: [CodeCats](https://opensea.io/collection/codecats?search[sortAscending]=true&search[sortBy]=PRICE&search[toggles][0]=BUY_NOW)
 
 ### Connect with me:
 
@@ -62,11 +61,11 @@
 ### 📺 Latest YouTube Videos
 
 <!-- YOUTUBE:START -->
-- [Pimp my Font - VS Code Style](https://www.youtube.com/watch?v=3S6Fot3oQ1g)
-- [🔥 Best Shortcut You Didn’t Know!!](https://www.youtube.com/watch?v=oSLDZGUQN2A)
-- [Top 10 VS Code Keyboard Shortcuts You Must Learn to Use!](https://www.youtube.com/watch?v=rwc0Pr8ANpQ)
-- [Pro Tip 🔥 Multiple Terminal Management in VS Code](https://www.youtube.com/watch?v=i90sURfAXYw)
-- [Best CSS Tool for VS Code!! 🪞 Mirror Editing](https://www.youtube.com/watch?v=ELVkK-N3kBs)
+- [Cold Starts Kill AI Apps](https://www.youtube.com/shorts/H6RnDFyS-z4)
+- [Is AWS re:Invent Worth It? #aws #reinvent #tech](https://www.youtube.com/shorts/BYgvVIH8-F4)
+- [I stopped using terminal tabs.](https://www.youtube.com/watch?v=sZDjE-9esEg)
+- [Cut Next.js Load Times by 85% With this Deployment Method](https://www.youtube.com/shorts/gSsy7ypKqFY)
+- [Generative UI is the future of AI Interactions!!](https://www.youtube.com/watch?v=goxnUKwwf-I)
 <!-- YOUTUBE:END -->
 
 ➡️ [more videos...](https://youtube.com/codestackr)
@@ -76,11 +75,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Web Development Roadmap 2023](https://dev.to/codestackr/web-development-roadmap-2023-5beo)
-- [Getting Started with MongoDB &amp; Mongoose](https://dev.to/codestackr/getting-started-with-mongodb-mongoose-2h6a)
-- [How To Pass Application Tracking Systems &lpar;ATS&rpar; &amp; Get Interviews - Resume Tips for Software Developer](https://dev.to/codestackr/how-to-pass-application-tracking-systems-ats-get-interviews-resume-tips-for-software-developer-4bmo)
-- [Microinteractions: Password Validation Animation](https://dev.to/codestackr/microinteractions-password-validation-animation-5629)
-- [Notion + YouTube - A Powerful Combination for Productivity](https://dev.to/codestackr/notion-youtube-a-powerful-combination-for-productivity-1def)
+- [It’s Happening! Vercel 🤝 MongoDB](https://dev.to/mongodb/its-happening-vercel-mongodb-4527)
+- [The OpenAI Agents SDK for TypeScript is Missing Something—And That’s Ok](https://dev.to/mongodb/the-openai-agents-sdk-for-typescript-is-missing-something-and-thats-ok-1dco)
+- [Building a Chat Application That Doesn&#39;t Forget!](https://dev.to/mongodb/building-a-chat-application-with-mongodb-memory-provider-for-vercel-ai-sdk-56ap)
+- [How Prisma Transforms MongoDB Development &lpar;And Why You Need It&rpar;](https://dev.to/mongodb/how-prisma-transforms-mongodb-development-and-why-you-need-it-34bk)
+- [Top 8 Tips for Using Prisma with MongoDB](https://dev.to/mongodb/top-8-tips-for-using-prisma-with-mongodb-582f)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [more blog posts...](https://codestackr.com)
@@ -91,11 +90,11 @@
   <summary>:zap: Recent GitHub Activity</summary>
   
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#3](https://github.com/motion-canvas/examples/issues/3) in [motion-canvas/examples](https://github.com/motion-canvas/examples)
-2. 🎉 Merged PR [#1](https://github.com/codeSTACKr/gentree-generator/pull/1) in [codeSTACKr/gentree-generator](https://github.com/codeSTACKr/gentree-generator)
-3. 💪 Opened PR [#1](https://github.com/codeSTACKr/gentree-generator/pull/1) in [codeSTACKr/gentree-generator](https://github.com/codeSTACKr/gentree-generator)
-4. 💪 Opened PR [#1](https://github.com/studio-demo/cloudcash-sass/pull/1) in [studio-demo/cloudcash-sass](https://github.com/studio-demo/cloudcash-sass)
-5. 🎉 Merged PR [#1](https://github.com/codeSTACKr/superhero-extensions/pull/1) in [codeSTACKr/superhero-extensions](https://github.com/codeSTACKr/superhero-extensions)
+1. 🎉 Merged PR [#2](https://github.com/codeSTACKr/anti-slop-slop-canon/pull/2) in [codeSTACKr/anti-slop-slop-canon](https://github.com/codeSTACKr/anti-slop-slop-canon)
+2. 💪 Opened PR [#2](https://github.com/codeSTACKr/anti-slop-slop-canon/pull/2) in [codeSTACKr/anti-slop-slop-canon](https://github.com/codeSTACKr/anti-slop-slop-canon)
+3. 🚀 Published release [v0.1.0](https://github.com/codeSTACKr/anti-slop-slop-canon/releases/tag/v0.1.0) in [codeSTACKr/anti-slop-slop-canon](https://github.com/codeSTACKr/anti-slop-slop-canon)
+4. 🎉 Merged PR [#1](https://github.com/codeSTACKr/anti-slop-slop-canon/pull/1) in [codeSTACKr/anti-slop-slop-canon](https://github.com/codeSTACKr/anti-slop-slop-canon)
+5. 💪 Opened PR [#1](https://github.com/codeSTACKr/anti-slop-slop-canon/pull/1) in [codeSTACKr/anti-slop-slop-canon](https://github.com/codeSTACKr/anti-slop-slop-canon)
 <!--END_SECTION:activity-->
 
 </details>
