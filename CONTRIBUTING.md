@@ -1,49 +1,64 @@
 # Contributing
 
-Thanks for your interest in this project. Before you open a pull request, please
-read the policy below.
+Thanks for your interest — this is a GitHub **profile README** repo. It ships no app, no build, and no deploy.
 
-## 🚫 No CI, no GitHub Actions — ever
+## 🚫 No CI / No GitHub Actions — ever
 
-**This project intentionally has no CI/CD.** Do **not** add GitHub Actions
-workflows or any other continuous integration configuration to this repository —
-now or in the future.
+This is a **permanent policy**, not a TODO:
 
-This is a permanent project policy, not a temporary state. Pull requests that
-introduce CI will be closed without merging.
+- **Do not** add `.github/workflows/*.yml` or `*.yaml`
+- **Do not** add composite actions (`.github/actions/**`, `action.yml`)
+- **Do not** add scheduled bots that auto-commit to the README
+- **Do not** add third-party CI config: `.circleci/`, `.travis.yml`, `.gitlab-ci.yml`, `Jenkinsfile`, `azure-pipelines.yml`, Buildkite, Drone, AppVeyor, etc.
+- **Do not** add CI status badges or required checks to the README
 
-### What is not allowed
+Why: this repo is static Markdown + SVGs. Automation has historically caused noisy commits and wasted minutes. All checks are manual/local (see `docs/MAINTENANCE.md` and `scripts/`).
 
-- GitHub Actions workflow files (`.github/workflows/*.yml` / `*.yaml`)
-- Composite actions or reusable workflows (`.github/actions/**`,
-  `action.yml`, `action.yaml`)
-- Scheduled or automated bots/workflows that modify files in this repository
-  (for example, auto-updating the README)
-- Third-party CI configuration, including but not limited to CircleCI
-  (`.circleci/`), Travis CI (`.travis.yml`), GitLab CI (`.gitlab-ci.yml`),
-  Jenkins (`Jenkinsfile`), Azure Pipelines (`azure-pipelines.yml`), Buildkite,
-  Drone, and AppVeyor
-- CI-related badges, status checks, or automation hooks added to the README or
-  any other file
+If you think CI is needed, **don't add it** — open an issue describing the problem. It will be solved with a documented manual or local workflow.
 
-### Why
+## How to contribute
 
-- This repository is a GitHub profile README. It contains no application code to
-  build, test, or deploy.
-- All checks and updates are done manually. Automation adds noise, consumes
-  Actions minutes, and has historically made unwanted commits to the README.
-- Keeping the repository free of CI keeps it simple, fast, and predictable.
+1. **Fork** and create a feature branch: `git checkout -b feat/your-idea`
+2. **Edit manually**:
+   - Content: `README.md` (follow `docs/STYLE_GUIDE.md`)
+   - Assets: `img/*.svg` (keep script-free, see `SECURITY.md`)
+   - Docs: `docs/*.md`
+   - Scripts (local-only): `scripts/*.js`
+3. **Validate locally**:
+   ```bash
+   npm install
+   npm run validate   # link & markdown checks (no network CI)
+   npm run lint       # prettier/markdownlint if installed
+   ```
+4. **Commit with intent**: `feat: add featured projects section` / `fix: correct course link to https`
+5. Open a **Pull Request** using the template — include a screenshot of the rendered README if UI changed.
 
-### If you think CI is needed
+## Content guidelines
 
-Don't add it. Open an issue describing the problem instead, and it will be
-solved with a manual or local workflow.
+- Keep tone on-brand: friendly, teacher-first, beginner-friendly.
+- Prefer **https** everywhere; verify external URLs before PR.
+- Keep SVGs **accessible**: `role="img"`, `<title>`, `aria-label` where needed. No inline JS.
+- Keep badges limited and meaningful; avoid badge spam (see `docs/PERFORMANCE.md`).
+- Update `CHANGELOG.md` under `[Unreleased]` for user-visible changes.
 
-## Making a change
+## What makes a good PR
 
-1. Fork the repository and create a branch.
-2. Make your change by hand.
-3. Open a pull request describing what you changed and why.
-4. A maintainer will review and merge it.
+- Small, focused diff with clear "why"
+- No unrelated reformatting
+- Links verified (no 404s)
+- Screenshots for visual changes
 
-By contributing, you agree to follow this policy.
+## Local automation (allowed)
+
+You **may** add or use local Node scripts in `scripts/` that run **on your machine** and commit results manually, e.g.:
+
+- `scripts/update-readme.js` — fetch latest YouTube/blog entries and patch README
+- `scripts/validate-links.js` — HEAD-check external URLs with timeout
+
+These must **not** be wired to any GitHub Action.
+
+## Code of Conduct
+
+By participating you agree to the `CODE_OF_CONDUCT.md`.
+
+Need help? Open a discussion or email **ketan6196@gmail.com**.

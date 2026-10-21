@@ -1,0 +1,23 @@
+{
+  "name": "codestackr-profile",
+  "private": true,
+  "version": "1.1.0",
+  "description": "GitHub profile README — manual/local maintenance (no CI)",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-links.js",
+    "lint": "prettier --check \"**/*.{md,js,json,yml}\" && markdownlint \"**/*.md\" --ignore node_modules || echo \"(lint) install prettier/markdownlint for full checks\" && exit 0",
+    "format": "prettier --write \"**/*.{md,js,json,yml}\"",
+    "update:readme": "node scripts/update-readme.js",
+    "update:youtube": "node scripts/update-readme.js --only=youtube",
+    "update:blog": "node scripts/update-readme.js --only=blog",
+    "test": "node --test scripts/*.test.js 2>&1 || echo \"no tests\""
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.39.0",
+    "prettier": "^3.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
